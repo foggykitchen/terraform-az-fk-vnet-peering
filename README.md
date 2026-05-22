@@ -66,7 +66,7 @@ All examples are runnable and demonstrate practical peering scenarios from basic
 
 ```hcl
 module "vnet_peering" {
-  source = "github.com/mlinxfeld/terraform-az-fk-vnet-peering"
+  source = "github.com/foggykitchen/terraform-az-fk-vnet-peering"
 
   resource_group_name = "fk-rg"
 
@@ -140,11 +140,11 @@ See [`examples/`](examples) for details.
 
 ## 🧩 Related Modules & Training
 
-- [terraform-az-fk-vnet](https://github.com/mlinxfeld/terraform-az-fk-vnet)
-- [terraform-az-fk-nsg](https://github.com/mlinxfeld/terraform-az-fk-nsg)
-- [terraform-az-fk-loadbalancer](https://github.com/mlinxfeld/terraform-az-fk-loadbalancer)
-- [terraform-az-fk-compute](https://github.com/mlinxfeld/terraform-az-fk-compute)
-- [terraform-az-fk-aks](https://github.com/mlinxfeld/terraform-az-fk-aks)
+- [terraform-az-fk-vnet](https://github.com/foggykitchen/terraform-az-fk-vnet)
+- [terraform-az-fk-nsg](https://github.com/foggykitchen/terraform-az-fk-nsg)
+- [terraform-az-fk-loadbalancer](https://github.com/foggykitchen/terraform-az-fk-loadbalancer)
+- [terraform-az-fk-compute](https://github.com/foggykitchen/terraform-az-fk-compute)
+- [terraform-az-fk-aks](https://github.com/foggykitchen/terraform-az-fk-aks)
 
 ---
 

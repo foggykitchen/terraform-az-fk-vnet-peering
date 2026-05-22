@@ -1,5 +1,5 @@
 module "vnet_1" {
-  source = "github.com/mlinxfeld/terraform-az-fk-vnet"
+  source = "github.com/foggykitchen/terraform-az-fk-vnet"
 
   name                = "fk-vnet-region1"
   location            = var.vnet_1_location
@@ -15,7 +15,7 @@ module "vnet_1" {
 }
 
 module "vnet_2" {
-  source = "github.com/mlinxfeld/terraform-az-fk-vnet"
+  source = "github.com/foggykitchen/terraform-az-fk-vnet"
 
   name                = "fk-vnet-region2"
   location            = var.vnet_2_location
@@ -31,7 +31,7 @@ module "vnet_2" {
 }
 
 module "peering" {
-  source = "github.com/mlinxfeld/terraform-az-fk-vnet-peering"
+  source = "github.com/foggykitchen/terraform-az-fk-vnet-peering"
 
   resource_group_name = azurerm_resource_group.fk_rg.name
 
