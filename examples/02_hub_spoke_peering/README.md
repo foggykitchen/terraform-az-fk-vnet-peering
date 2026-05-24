@@ -33,6 +33,8 @@ This model is commonly used to centralize shared services (DNS, firewall, routin
 
 - [Azure VNet Peering with Terraform – Why Hub-and-Spoke Is Not Transitive](https://foggykitchen.com/2026/04/02/azure-vnet-peering-terraform/)
 
+This article explains why hub-and-spoke peering in Azure does not automatically provide spoke-to-spoke communication, even when every VNet can reach the hub. It gives the architectural context for this example, which focuses on building the peering relationships themselves in a clean, reusable form before adding any transit routing logic.
+
 ## 🚀 Deployment Steps
 
 Initialize and apply the configuration:

@@ -5,6 +5,7 @@ This repository contains a reusable **Terraform/OpenTofu module** and progressiv
 It is part of the **[FoggyKitchen.com training ecosystem](https://foggykitchen.com/courses/azure-fundamentals-terraform-course/)** and provides a practical, composable building block for Azure networking architectures.
 
 This module is also part of the **[Azure Advanced Networking with Terraform/OpenTofu – Building Real-World Azure Network Architectures with Reusable Modules (2026 Edition)](https://foggykitchen.com/courses/azure-advanced-networking-terraform-course/)** course.
+In the course, it is used to explain how hub-and-spoke connectivity is established in Azure and why peering alone does not provide full transit behavior. It works as the reusable foundation for later routing and security scenarios built on top of the same network topology.
 
 ---
 
